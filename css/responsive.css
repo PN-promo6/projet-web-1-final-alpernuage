@@ -1,0 +1,71 @@
+@media (min-width: 640px) {
+  .container {
+    max-width: 100%;
+  }
+
+  html {
+    font-size: 8px;
+  }
+
+  .produit {
+    width: 25%;
+  }
+
+  .produit:nth-child(3) {
+    border-left: 0.1rem solid;
+  }
+
+  #nav-icons li:not(:last-child) {
+    display: block;
+  }
+
+  .Accueil {
+    display: block;
+  }
+
+  #Produits {
+    display: block;
+  }
+
+  #Support {
+    display: block;
+  }
+
+  .div-menu-item {
+    display: inline-block;
+  }
+
+  .divheader {
+    color: #fff;
+    text-align: right;
+    padding-right: 3rem;
+  }
+
+  #menu {
+    display: none;
+  }
+
+  #buttonBandeau {
+    position: relative;
+    top: -18rem;
+    left: 20%;
+  }
+
+  .ECONOMIE {
+    left: 65%;
+  }
+
+  .ancre {
+    bottom: 5rem;
+  }
+
+  footer div {
+    width: 33, 33%;
+  }
+
+  footer .container {
+    margin: 0;
+    padding: 0;
+    flex-direction: row;
+  }
+}
